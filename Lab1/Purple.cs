@@ -7,7 +7,27 @@
             bool answer = false;
 
             // code here
+            bool Task1(int a, int b, int c)
+            {
+                if (a > 0 && b > 0 && c > 0)
+                {
+                    return true;
+                }
+                else if (a < 0 && b < 0 && c < 0)
+                {
+                    return true;
+                }
+                else if (a == 0 && b == 0 & c == 0)
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
 
+            answer = Task1(a, b, c);
             // end
 
             return answer;
